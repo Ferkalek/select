@@ -26,6 +26,11 @@
     top: 15px;
     right: 10px;
 }
+.select-main.opened:after {
+    border-top: 4px solid transparent;
+    border-bottom: 7px solid #B7B1B1;
+    top: 10px;
+}
 .select-content {
     width: inherit;
     border: 1px solid #B7B1B1;

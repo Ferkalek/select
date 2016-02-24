@@ -23,7 +23,7 @@ $(function(){
     $('.select-content').hide();
 
     $('.select-main').on('click', function(){
-        $(this).parent().find('.select-content').slideToggle()
+        $(this).toggleClass('opened').parent().find('.select-content').slideToggle()
     });
 
     $('.select-content li').on('click', function(e){
